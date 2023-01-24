@@ -1,0 +1,22 @@
+{
+  "name": "yjs-indexdb-test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "HOST=localhost PORT=1234 npx y-websocket"
+  },
+  "dependencies": {
+    "vue": "^3.2.45",
+    "y-indexeddb": "^9.0.9",
+    "y-websocket": "^1.4.5",
+    "yjs": "^13.5.44"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.0.0"
+  }
+}
